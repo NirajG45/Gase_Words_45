@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    text-align: center;
+    padding-top: 50px;
+}
+.container {
+    background: #fff;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.word {
+    font-size: 2em;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+.message {
+    font-weight: bold;
+    margin: 20px 0;
+}
+input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    width: 50px;
+    text-align: center;
+}
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.restart {
+    display: block;
+    margin-top: 20px;
+    color: #007BFF;
+    text-decoration: none;
+}
+.restart:hover {
+    text-decoration: underline;
+}
